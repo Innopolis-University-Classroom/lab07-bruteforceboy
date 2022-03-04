@@ -4,5 +4,5 @@
 template<typename T>
 void multiples (T& sum, T x, T n)
 {
-  sum = (n * (n + 1) / 2) * x;
+  sum = 1 + (n * (n + 1) / 2) * x;
 }
